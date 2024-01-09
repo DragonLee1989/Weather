@@ -1,0 +1,25 @@
+
+## Current Weather at Da Nang
+GET https://api.weatherapi.com/v1/current.json?key=c9a0ca46550648b29ce125849232709&q=Danang&aqi=no&lang=vi
+
+## Coment ...
+
+## Hours
+###
+GET https://api.weatherapi.com/v1/forecast.json?key=c9a0ca46550648b29ce125849232709&q=Danang&days=1&aqi=no&alerts=no&lang=vi
+
+## Daily 5 days (days=5
+###
+GET https://api.weatherapi.com/v1/forecast.json?key=c9a0ca46550648b29ce125849232709&q=Danang&days=5&aqi=no&alerts=no&lang=vi
+
+###
+## Coment ... co khoang cach duoi "content-type"
+# POST https://jsonplaceholder.typicode.com/posts HTTP/1.1
+# content-type: application/json
+
+# {
+#     "userId": 1,
+#     "title": "sample",
+#     "body": "Wed, 21 Oct 2015 18:27:50 GMT"
+# }
+
